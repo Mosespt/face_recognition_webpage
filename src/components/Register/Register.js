@@ -30,7 +30,7 @@ const Register = ({ onRouteChange, loadUser }) => {
     }
 
     function onSubmitRegister() {
-        fetch("http://localhost:3000/register", {
+        fetch("https://brainy-server.onrender.com/register", {
             method: "post",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({
