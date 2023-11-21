@@ -1,0 +1,10 @@
+.Tilt {
+    background: linear-gradient(145deg, rgba(250, 224, 105, 1) 0%, rgba(112,218,240,1) 100%);
+
+    transform-style: preserve-3d;
+
+    .Tilt-inner {
+        transform: translateZ(60px);
+    }
+
+}
